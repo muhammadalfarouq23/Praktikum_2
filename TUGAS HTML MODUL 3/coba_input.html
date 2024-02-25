@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe input</title>
+    <link rel="icon" type="img/png" href="WhatsApp Image 2024-02-25 at 16.19.11.jpeg" sizes="16x16" />
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+
+</head>
+<body>
+    
+    <label for="username"> type "text": </label> <br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">type "password" </label><br>
+    <input type="password" id="pwd"><br>
+
+    <br>
+    <hr>
+    <h3>Uji coba 2</h3>
+    <input type="radio" id="html" value="HTML" name="HTML"> <label for="html">HTML</label><br>
+    <input type="radio" id="css" value="CSS" name="CSS"> <label for="css">CSS</label><br>
+    <input type="radio" id="javasript" value="Javasript" name="Javasript"> <label for="javasript">Javasript</label>
+    <p>Apabila dinamai tag Name yang sama maka semua terpilih apabila tag Name yang berbeda maka bisa memilih</p>
+
+    <hr>
+    <h3>Uji coba 3</h3>
+    <input type="checkbox" id="id1" value="Bike" name="Bike">
+    <label for="id1">I have a bike</label><br>
+    <input type="checkbox" id="id2" value="Car" name="Car">
+    <label for="id2"> I have a car</label><br>
+    <input type="checkbox" id="id3" value="Boat" name="Boat">
+    <label for="id3"> I have boat</label>
+    <p>dari input checkbox apabila kita mengisi name nilai sama, maka hasilnya tetep bisa memilih lebih dari 1 atau tidak memilih semua
+        karena input bertype checkbox, dan pada for yang dituju bukan name tapi atribut id<</p>
+
+    <hr>
+    <h3>Uji Coba 4</h3>
+    <label for="favcolor">Pilih Warna dengan type="color":</label>
+    <input type="color" id="favcolor" name="favcolor"><br>
+    <label for="b">Pilih tanggal dengan type="date":</label>
+    <input type="date" id="b" name="tanggal"><br>
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br>
+    <p><! input type color berfungsi menginpt warna dengan hexa, RGB, HSL
+     , input type date berfungsi tanggal,bulan dan tahun 
+    , input type button menambah tombol berfungsi alert/warning></p>
+
+    <hr>
+    <h3>Uji Coba 5</h3>
+    <label for="birthdaytime">input dengan type datetime-local: </label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+    <label for="bdaymonth">Input dengan type month:</label>
+    <input type="month" name="bdaymonth" id="bdaymonth"><br>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br>
+    <p> input type datetime-local berfungsi input tanggal bulan tahun dan jam
+    , input type month berfungsi input bulan dan tahun
+    , input type email yaitu input teks ,harus dengan format email memasukkan nya, jika bukan 
+    otomatis form akan tidak bisa di submit</p>
+
+    <hr>
+    <h3>Uji coba 6</h3>
+    <input type="image" src="WhatsApp Image 2024-02-25 at 16.19.11.jpeg" alt="Submit" width="48" height="48"><br>
+    <label for="myfile">Pilih file : </label>
+    <input type="file" id="myfile" name="myfile"><br>
+    <input type="hidden" id="custId" name="custId" value="3487"><br>
+    <p> input data type image digunakan untuk membuat tombol submit berupa gambar
+    input type file digunakan upload berkas apapun
+    input type hidden yaitu input data tidak terlihat oleh pengguna web,input data hidden tidak dimaksudkan diinput oleh pengguna, 
+    dibuat secara otomatis oleh web kita , dan tidak diubah  </p>
+
+    <hr>
+    <h3>Uji coba 7</h3>
+    <label for="quantity">Quantity (between 1 and 5) :</label>
+    <input type="number" id="quantity" name="quantity" min="-50" max="10"> <br>
+    <label for="vol">Volume (between 0 and 50) :</label>
+    <input type="range" id="vol" name="vol" min="0" max="50"><br>
+    <p> input type number untuk input angaka
+    input data type sama untuk input angak namuan ditentukan jangkauan minimal,mitip type number tapi 
+bedda komponen inputnya, dalam bentuk slinder 
+atribut min dan max untuk mengatur berapa nilai minimal dan maximaldata yang diinput</p>
+
+    <hr>
+    <h3>Uji coba 8</h3>
+    <label for="homepage">Add your homepage :</label>
+    <input type="url" id="homepage" name="homepage"><br>
+    <label for="gsearch">Search Google :</label>
+    <input type="search" id="gsearch" name="gsearch"><br>
+    <label for="ph">Enter your phone number :</label>
+    <input type="tel" id="ph" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+    <p> input type URL digunakan nerima input dalam belum bentuk URL, web pribadi ,web social media 
+    input type search digunakan pengguna memasukan teks pendek digunakan parameter dalam peencairann
+    input type tel digunakan input informasi telepon , beda dengan input number aturan ditel harus ditentukan sendiri, karna format
+    telepon disetiap negara berbeda beda,kita bisa ubah aturan format nomor telepon menggunakan atribut pattern isinya harus Regular Express </p>
+
+    <hr>
+    <h3>Uji coba 9</h3>
+    <label for="appt">Select a time :</label>
+    <input type="time" id="appt" name="appt"><br>
+    <label for="week">Select a week :</label>
+    <input type="week" id="week" name="week"><br>
+    <p> input type time digunakan untuk informasi jam dan menit dan ,gunakan min max untuk membatasi niali untuk week
+    input type week digunakan menerima input minggu dalam 1 tahun</p>
+
+</body>
+</html>
